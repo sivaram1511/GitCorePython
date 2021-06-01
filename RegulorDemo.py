@@ -1,4 +1,7 @@
 import re
-match=re.finditer("a$","caabc@ SIVAaaa 09865aaaa hijkl .**a")
-for m in match:
+s=input("Enter the pattern to check..")
+m=re.match(s,"abcdscdracbsvg")
+if m!=None:
     print(m.start(),m.group())
+else:
+    print("not matched")
