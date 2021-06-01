@@ -1,4 +1,4 @@
 import re
-match=re.finditer("\D","ab 2576@ XHSs nkLAKAJ.")
+match=re.finditer("\w","abc@ SIVA 09865 hijkl .**")
 for m in match:
     print(m.start(),m.group())
