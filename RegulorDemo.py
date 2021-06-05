@@ -1,5 +1,5 @@
 from abc import *
-class Test(ABC):
+class Test:
     @abstractmethod
     def m1(self):
        pass
