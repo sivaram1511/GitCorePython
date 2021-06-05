@@ -1,10 +1,11 @@
 from abc import *
-class Test:
+
+class Vehicle(ABC):
     @abstractmethod
-    def m1(self):
-       pass
-t=Test()
-    
+    def noofwheels(self):
+        pass
+class Bus(Vehicle):
+    pass
 
 
 
