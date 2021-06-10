@@ -1,8 +1,14 @@
-def add(a,b):
-    sum=a+b
-    return sum
-print("The sum is",add(23,90))
+def add(x):
+    result=1
+    while x>=1:
+        result=result*x
+        x=x-1
+    return result
+for i in range(1,6):
+    print(add(i))
+    
 
+   
     
 
 
