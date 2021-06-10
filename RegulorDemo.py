@@ -1,11 +1,9 @@
-from abc import *
+def add(a,b):
+    sum=a+b
+    return sum
+print("The sum is",add(23,90))
 
-class Vehicle(ABC):
-    @abstractmethod
-    def noofwheels(self):
-        pass
-class Bus(Vehicle):
-    pass
+    
 
 
 
