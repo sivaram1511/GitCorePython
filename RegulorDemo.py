@@ -1,6 +1,8 @@
-s="fish"
-s1=s[0].upper()+s[1:-1]+s[-1].upper()
-print(s1)
+
+string="Hello 1 world 2"
+vowels=('a','e','i','o','u')
+print(''.join([c for c in string if c not in vowels]))
+
     
 
 
