@@ -1,11 +1,7 @@
-
-s="Siva"
-target=''
-n=len(s)-1
-while n>=0:
-    target=target+s[n]
-    n=n-1
-print(target)    
+s="fish"
+s1=s[0].upper()+s[1:-1]+s[-1].upper()
+print(s1)
+    
 
 
     
