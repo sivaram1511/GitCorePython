@@ -1,7 +1,6 @@
+print("the happiest person in the whole wide world".index("in",0,23))
 
-name="Chris"
-food="cream brulee"
-print(f'helloo.my name is {name} and i like{food}')
+
 
     
 
