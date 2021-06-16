@@ -1,5 +1,8 @@
-l=[12,21,32,23,34,43,45,54,56,65,67,76]
-l1=list(filter(lambda x:x*2,l))
+
+def double(x):
+    return 2*x
+l=[2,3,4,5,9,6,7,8]
+l1=list(map(double,l))
 print(l1)
 
     
