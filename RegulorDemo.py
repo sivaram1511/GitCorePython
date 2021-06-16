@@ -1,10 +1,10 @@
-def wish(name):
-    print("Good Morning",name)
-greeting=wish
-print(id(wish))
-print(id(greeting))
-greeting("Durga")
-wish("Durga")
+def f1():
+    if __name__=='__main__':
+        print("The code executed as a program")
+    else:
+        print("The code executed as a module")
+f1()        
+
 
 
     
