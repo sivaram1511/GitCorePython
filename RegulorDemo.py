@@ -1,6 +1,6 @@
-n=int(input("Enter range"))
-for i in range(1,n+1):
-    print(" "*(n-i),end='')
-    for j in range(1,2*i):
-        print("*",end=' ')
-    print()    
+name="sankar"
+salary=10000
+age=45
+print("{}'s salary is {} and his age {}".format(name,salary,age))
+
+   
