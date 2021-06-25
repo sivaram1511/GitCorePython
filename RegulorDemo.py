@@ -1,3 +1,35 @@
-print("The Integer number is:{}".format(123))
-print("The integer number is:{:d}".format(123))
-print("The integer number is:{:5d}".format(123))
+
+class Solution:
+     def countbinarySubstrings(self,s):
+          n=len(s)
+          prev,cur=0,1
+          output=0
+          for i in range(1,n):
+               if s[i]!=s[i-1]:
+                    output+=min(cur,prev)
+                    prev=cur
+                    cur=1
+               else:
+                    cur+=1
+          return output+min(prev,cur)
+sul=Solution()
+s="010110011"
+output=sul.countbinarySubstrings(s)
+print(output)
+
+
+
+
+
+   
+       
+         
+
+
+
+
+
+
+
+
+
