@@ -1,9 +1,11 @@
-def add(a,b):
-    print(a,b)
-    return a+b
-sum=add(23,45)
-print(sum)
-
+def fact(num):
+    result=1
+    while num>=1:
+        result=result*num
+        num=num-1
+    return result
+for i in range(1,5):
+    print(fact(i))
 
 
 
