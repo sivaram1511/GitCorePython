@@ -1,13 +1,14 @@
-d={100:"durga",200:"ravi",300:"shiva"}
-print(d)
-d[400]="pavan"
-print(d)
-d[100]='chiru'
-print(d)
-del d[100]
-print(d)
-del d[700]
-print(d)
+d=dict([(100,'siva'),(200,'ram'),(300,'krishna')])
+print(d.values())
+for k,v in d.items():
+    print(k,"----",v)
+d1=d.copy()
+print(d1)
+d1[100]='kasi'
+print("original dict",d)
+print("cloned copy",d1)
+
+
 
 
 
