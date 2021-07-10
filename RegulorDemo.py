@@ -5,7 +5,7 @@ for k,v in d.items():
 d1=d.copy()
 print(d1)
 d1[100]='kasi'
-print("original dict",d)
+print("original dict is",d)
 print("cloned copy",d1)
 
 
