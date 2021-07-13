@@ -10,12 +10,12 @@ class P:
     def m3():
         print("parent class static method")
 class C(P):
-    @classmethod
-    def m1(cls):
-        super().m2()
-        super().m3()
-        super(C,cls).m1(cls)
-        super(C,cls).__init__(cls)
+    @staticmethod
+    def m1():
+        super(C,C).m2()
+        super(C,C).m3()
+        super(C,C).m1(C)
+        super(C,C).__init__(C)
 C.m1()       
         
 
